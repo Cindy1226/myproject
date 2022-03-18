@@ -5,7 +5,7 @@ public class SilverCostumer extends Customer{
         super(level, spent);
     }
     public void print(){
-        float offMoney=(spent/1000)*off*1000;
-        System.out.println(level+"\t"+spent+"\t"+(spent-offMoney)+"\t"+"("+offMoney+")");
+        //float offMoney=(spent/1000)*off*1000;
+        System.out.println(level+"\t"+spent+"\t"+(spent-backMoney())+"\t"+"("+backMoney()+")");
     }
 }
