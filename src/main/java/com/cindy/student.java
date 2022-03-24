@@ -30,6 +30,7 @@ public class student {
         System.out.println();
 
     }
+
     public int Getaverage(){
         return (Eng+Math)/2;
 
