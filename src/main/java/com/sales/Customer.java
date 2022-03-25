@@ -1,4 +1,4 @@
-package com.cindy;
+package com.sales;
 
 public class Customer {
     String level;

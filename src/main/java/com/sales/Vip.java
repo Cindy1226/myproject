@@ -1,4 +1,4 @@
-package com.cindy;
+package com.sales;
 
 public class Vip {
     public static void main(String[] args) {

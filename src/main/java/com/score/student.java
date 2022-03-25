@@ -1,4 +1,4 @@
-package com.cindy;
+package com.score;
 
 public class student {
     String name;

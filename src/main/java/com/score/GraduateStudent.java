@@ -1,4 +1,4 @@
-package com.cindy;
+package com.score;
 
 public class GraduateStudent extends student{
     public GraduateStudent(String name,int Eng,int Math,int thesis){

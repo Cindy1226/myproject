@@ -1,4 +1,4 @@
-package com.cindy;
+package com.score;
 
 public class ScoringNG {
     public static void main(String[] args) {
