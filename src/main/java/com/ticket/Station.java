@@ -2,8 +2,8 @@ package com.ticket;
 
 public class Station {//設計屬性
     public static final  Station TAIPEI_STATION=new Station(100,"Taipei");
-    public static final  Station TAICHUNG_STATION=new Station(100,"Taichung");
-    public static final  Station KAOHSIUNG_STATION=new Station(100,"kaohsung");
+    public static final  Station TAICHUNG_STATION=new Station(200,"Taichung");
+    public static final  Station KAOHSIUNG_STATION=new Station(400,"kaohsung");
     int id;
     String  name;
     public Station(int id,String name){
