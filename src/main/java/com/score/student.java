@@ -1,5 +1,5 @@
 package com.score;
-
+//修飾字（子）modifier public/default(package)/private/protected
 public class student implements Printable {
     String name;
     int Eng;
