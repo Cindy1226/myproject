@@ -10,6 +10,7 @@ public class GuessFrame extends JFrame {
     JButton button = new JButton("hi");
     JLabel label = new JLabel("Zzzzzzz");
     //constructions
+
     public GuessFrame(){
         super();
         setSize(600,400);
