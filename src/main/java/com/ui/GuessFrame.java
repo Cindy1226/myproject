@@ -14,8 +14,6 @@ public class GuessFrame extends JFrame {
         JButton button = new JButton("Guess");
         JLabel label = new JLabel("answer");
         int secret = new Random().nextInt(10)+1;
-
-
         //constructions
     public GuessFrame() {
             super();
@@ -34,11 +32,9 @@ public class GuessFrame extends JFrame {
                     }else if (num < secret) {
                         label.setText("bigger");
                     }else {
+
                         label.setText("bingo,the secret number is "+ secret);
-
                     }
-
-
                 }
             });
 
