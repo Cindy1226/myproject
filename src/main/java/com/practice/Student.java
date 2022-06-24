@@ -12,6 +12,10 @@ public class Student {
         this.eng=eng;
         this.math=math;
     }
+
+    public Student(String name, int english, int math) {
+    }
+
     public int avg(){
         return (chi+eng+math)/3;
     }
